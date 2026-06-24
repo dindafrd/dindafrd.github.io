@@ -177,18 +177,25 @@
       btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Mengirim...';
       btn.disabled = true;
 
-      // Simulate send (in production, integrate with a form service)
-      setTimeout(function () {
-        btn.innerHTML = '<i class="fas fa-check"></i> Terkirim!';
-        btn.style.background = 'linear-gradient(135deg, #22c55e, #16a34a)';
+      var data = new FormData(form);
 
-        setTimeout(function () {
-          btn.innerHTML = originalText;
-          btn.style.background = '';
-          btn.disabled = false;
+      fetch('/', { method: 'POST', body: data })
+        .then(function () {
+          btn.innerHTML = '<i class="fas fa-check"></i> Terkirim!';
+          btn.style.background = 'linear-gradient(135deg, #22c55e, #16a34a)';
           form.reset();
-        }, 3000);
-      }, 1500);
+        })
+        .catch(function () {
+          btn.innerHTML = '<i class="fas fa-times"></i> Gagal!';
+          btn.style.background = 'linear-gradient(135deg, #ef4444, #dc2626)';
+        })
+        .finally(function () {
+          setTimeout(function () {
+            btn.innerHTML = originalText;
+            btn.style.background = '';
+            btn.disabled = false;
+          }, 3000);
+        });
     });
   }
 

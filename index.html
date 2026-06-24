@@ -427,23 +427,26 @@
               </a>
             </div>
           </div>
-          <form class="contact-form reveal" id="contactForm">
+          <form class="contact-form reveal" id="contactForm" data-netlify="true" name="contact">
+            <input type="hidden" name="form-name" value="contact" />
             <div class="form-group">
-              <input type="text" id="name" placeholder="Nama Anda" required />
+              <input type="text" name="name" id="name" placeholder="Nama Anda" required />
             </div>
             <div class="form-group">
               <input
                 type="email"
+                name="email"
                 id="email"
                 placeholder="Email Anda"
                 required
               />
             </div>
             <div class="form-group">
-              <input type="text" id="subject" placeholder="Subjek" />
+              <input type="text" name="subject" id="subject" placeholder="Subjek" />
             </div>
             <div class="form-group">
               <textarea
+                name="message"
                 id="message"
                 rows="5"
                 placeholder="Pesan Anda..."
