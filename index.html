@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinda Farida — Arsitektur TI Specialist</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%236366f1'/%3E%3Ctext x='50' y='68' font-size='50' text-anchor='middle' fill='white' font-family='Arial'%3ED%3C/text%3E%3C/svg%3E"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ========== NAVBAR ========== -->
+    <nav id="navbar" class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="nav-logo">DF</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero" class="nav-link">Beranda</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#skills" class="nav-link">Keahlian</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-container">
+        <div class="hero-image reveal">
+          <div class="hero-image-frame">
+            <img src="profile-photo.png" alt="Dinda Farida" />
+          </div>
+        </div>
+        <div class="hero-text">
+          <p class="hero-greeting reveal">Halo, saya</p>
+          <h1 class="hero-name reveal">Dinda Farida</h1>
+          <h2 class="hero-role reveal">
+            <span class="typing-text" id="typingText"></span>
+            <span class="typing-cursor">|</span>
+          </h2>
+          <p class="hero-desc reveal">
+            Specialist Perencanaan Arsitektur TI dengan pengalaman dalam
+            perancangan, implementasi, dan monitoring infrastruktur jaringan
+            serta sistem keamanan perusahaan.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-briefcase"></i> Lihat Portfolio
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fas fa-envelope"></i> Hubungi Saya
+            </a>
+          </div>
+          <div class="hero-social reveal">
+            <a
+              href="mailto:dinda.farida@email.com"
+              class="social-link"
+              aria-label="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Tentang Saya</span>
+          <h2 class="section-title">
+            Membangun Arsitektur TI yang Andal & Aman
+          </h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-content reveal">
+            <p>
+              Saya adalah seorang
+              <strong>Specialist Perencanaan Arsitektur TI</strong>
+              dengan pengalaman dalam merancang, mengimplementasikan, dan
+              mengelola infrastruktur teknologi informasi yang scalable, aman,
+              dan efisien.
+            </p>
+            <p>
+              Berfokus pada <strong>Network Security</strong>,
+              <strong>System Monitoring</strong>, dan
+              <strong>IT Infrastructure Planning</strong>, saya telah menangani
+              berbagai proyek mulai dari deployment firewall enterprise,
+              implementasi sistem monitoring jaringan, hingga optimasi
+              arsitektur TI untuk mendukung kelangsungan bisnis.
+            </p>
+            <p>
+              Dengan pemahaman mendalam terhadap teknologi seperti
+              <strong>FortiGate</strong>, <strong>Zabbix</strong>, dan
+              <strong>PRTG</strong>, saya berkomitmen untuk menghadirkan solusi
+              TI yang tidak hanya memenuhi kebutuhan saat ini tetapi juga siap
+              menghadapi tantangan masa depan.
+            </p>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat-card">
+              <span class="stat-icon"
+                ><i class="fas fa-network-wired"></i
+              ></span>
+              <h3 class="stat-number">5+</h3>
+              <p class="stat-label">Tahun Pengalaman</p>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon"
+                ><i class="fas fa-shield-halved"></i
+              ></span>
+              <h3 class="stat-number">20+</h3>
+              <p class="stat-label">Proyek Network Security</p>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon"><i class="fas fa-server"></i></span>
+              <h3 class="stat-number">50+</h3>
+              <p class="stat-label">Infrastruktur Dikelola</p>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon"><i class="fas fa-certificate"></i></span>
+              <h3 class="stat-number">10+</h3>
+              <p class="stat-label">Sertifikasi TI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section section-dark">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Keahlian</span>
+          <h2 class="section-title">Kompetensi & Teknologi</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-shield-halved"></i></div>
+            <h3>Network Security</h3>
+            <p>
+              Firewall management, IPS/IDS, VPN, dan kebijakan keamanan jaringan
+              enterprise.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>System Monitoring</h3>
+            <p>
+              Implementasi dan konfigurasi Zabbix, PRTG, serta dashboard
+              monitoring real-time.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+            <h3>Arsitektur Jaringan</h3>
+            <p>
+              Perancangan topologi, subnetting, routing, dan optimasi
+              infrastruktur jaringan.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-fire"></i></div>
+            <h3>FortiGate</h3>
+            <p>
+              Deployment, konfigurasi, dan troubleshooting perangkat firewall
+              Fortinet.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <h3>Zabbix</h3>
+            <p>
+              Monitoring server, jaringan, dan aplikasi menggunakan platform
+              Zabbix.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+            <h3>PRTG</h3>
+            <p>
+              Network monitoring multi-sensor, alerting, dan reporting dengan
+              PRTG.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>IT Infrastructure</h3>
+            <p>
+              Perencanaan kapasitas, disaster recovery, dan dokumentasi
+              arsitektur TI.
+            </p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+            <h3>Cloud & Virtualisasi</h3>
+            <p>
+              VMware, Hyper-V, dan layanan cloud untuk infrastruktur hybrid.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Proyek</span>
+          <h2 class="section-title">Dashboard & Implementasi</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-image">
+              <img src="fortigate-dashboard.png" alt="FortiGate Dashboard" />
+              <div class="project-overlay">
+                <a
+                  href="fortigate-dashboard.png"
+                  target="_blank"
+                  class="btn btn-small"
+                >
+                  <i class="fas fa-expand"></i> Lihat
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>FortiGate Security Dashboard</h3>
+              <p>
+                Konfigurasi dan monitoring firewall FortiGate untuk keamanan
+                jaringan enterprise dengan policy management & threat
+                prevention.
+              </p>
+              <div class="project-tags">
+                <span>FortiGate</span>
+                <span>Firewall</span>
+                <span>Network Security</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-image">
+              <img src="zabbix-dashboard.png" alt="Zabbix Dashboard" />
+              <div class="project-overlay">
+                <a
+                  href="zabbix-dashboard.png"
+                  target="_blank"
+                  class="btn btn-small"
+                >
+                  <i class="fas fa-expand"></i> Lihat
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Zabbix Monitoring System</h3>
+              <p>
+                Implementasi sistem monitoring terpusat menggunakan Zabbix untuk
+                server, jaringan, dan aplikasi dengan alerting real-time.
+              </p>
+              <div class="project-tags">
+                <span>Zabbix</span>
+                <span>Monitoring</span>
+                <span>Infrastructure</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-image">
+              <img src="prtg-dashboard.png" alt="PRTG Dashboard" />
+              <div class="project-overlay">
+                <a
+                  href="prtg-dashboard.png"
+                  target="_blank"
+                  class="btn btn-small"
+                >
+                  <i class="fas fa-expand"></i> Lihat
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>PRTG Network Monitor</h3>
+              <p>
+                Deployment PRTG Network Monitor untuk multi-sensor monitoring
+                bandwidth, uptime, dan performa infrastruktur jaringan.
+              </p>
+              <div class="project-tags">
+                <span>PRTG</span>
+                <span>Network</span>
+                <span>Dashboard</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience" class="section section-dark">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Pengalaman</span>
+          <h2 class="section-title">Perjalanan Karir</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 — Sekarang</div>
+            <div class="timeline-content">
+              <h3>Specialist Perencanaan Arsitektur TI</h3>
+              <h4>Perusahaan Teknologi Terkemuka</h4>
+              <p>
+                Merancang arsitektur TI enterprise, mengelola keamanan jaringan,
+                dan memimpin implementasi sistem monitoring infrastruktur.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022 — 2024</div>
+            <div class="timeline-content">
+              <h3>Network Security Engineer</h3>
+              <h4>Perusahaan Solusi Keamanan TI</h4>
+              <p>
+                Mengelola firewall FortiGate, menerapkan kebijakan keamanan, dan
+                melakukan audit infrastruktur jaringan secara berkala.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2020 — 2022</div>
+            <div class="timeline-content">
+              <h3>IT Infrastructure Analyst</h3>
+              <h4>Perusahaan Layanan TI</h4>
+              <p>
+                Bertanggung jawab atas monitoring infrastruktur menggunakan
+                Zabbix & PRTG, serta optimasi performa jaringan.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2019 — 2020</div>
+            <div class="timeline-content">
+              <h3>Junior Network Administrator</h3>
+              <h4>Perusahaan Startup TI</h4>
+              <p>
+                Memulai karir di bidang jaringan dengan menangani administrasi
+                network harian dan dukungan teknis infrastruktur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Kontak</span>
+          <h2 class="section-title">Mari Berkolaborasi</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-desc">
+              Saya terbuka untuk diskusi, kolaborasi, dan peluang baru. Jangan
+              ragu untuk menghubungi saya melalui email atau LinkedIn.
+            </p>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:dindafrd310@gmail.com">dindafrd310@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/dinda-farida-093b3425a"
+                  >linkedin.com/in/dindafarida</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-pin"></i></div>
+              <div>
+                <h4>Lokasi</h4>
+                <p>Indonesia</p>
+              </div>
+            </div>
+            <div class="contact-download reveal">
+              <a
+                href="CV_Dinda%20Farida_Specialist%20Perencanaan%20Arsitektur%20TI.pdf"
+                download
+                class="btn btn-primary"
+              >
+                <i class="fas fa-download"></i> Download CV
+              </a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Anda"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" placeholder="Subjek" />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Pesan Anda..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i> Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" class="footer-logo">DF</a>
+          <p class="footer-text">
+            Merancang Arsitektur TI yang Andal untuk Masa Depan Digital.
+          </p>
+          <div class="footer-social">
+            <a
+              href="mailto:dinda.farida@email.com"
+              class="social-link"
+              aria-label="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Dinda Farida. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
